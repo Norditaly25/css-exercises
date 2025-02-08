@@ -1,15 +1,45 @@
+/* General Styling */
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
+/* Title Styling */
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px; /* Ensures spacing between title and items */
+}
+
+/* Flexbox Container */
+.container {
+  display: flex;
+  justify-content: center; /* Centers items in a row */
+  align-items: center; /* Aligns items properly */
+  gap: 52px; /* Ensures 52px space between items */
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Each Item */
+.item {
+  width: 200px;
+  text-align: center;
+}
+
+/* Images */
 img {
   width: 100px;
   height: 100px;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: 900;
+/* Text below images */
+.text {
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 /* do not edit this footer */
